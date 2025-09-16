@@ -1,0 +1,9 @@
+﻿{
+  "Name": "My First Stardew Mod",
+  "Author": "datlissschen",
+  "Version": "1.0.0",
+  "Description": "Meine erste Mod für Stardew Valley.",
+  "UniqueID": "datlissschen.MyFirstStardewMod",
+  "EntryDll": "MyFirstStardewMod.dll",
+  "MinimumApiVersion": "4.0.0"
+}

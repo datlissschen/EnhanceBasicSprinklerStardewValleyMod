@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rIdz70VCKAet6TlwJXKuI6iP7VDvRgkqpivFKi+bpx9+qUmFycW1JEcUNiq42ckKHwgawb9MgwVQ0JsXUsSWcQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\natte\\MyFirstStardewMod\\MyFirstStardewMod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\natte\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.4.0\\pathoschild.stardew.modbuildconfig.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

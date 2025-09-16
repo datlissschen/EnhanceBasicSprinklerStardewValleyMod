@@ -1,0 +1,8 @@
+C:\Users\natte\MyFirstStardewMod\bin\Release\net6.0\MyFirstStardewMod.deps.json
+C:\Users\natte\MyFirstStardewMod\bin\Release\net6.0\MyFirstStardewMod.dll
+C:\Users\natte\MyFirstStardewMod\obj\Release\net6.0\MyFirstStardewMod.csproj.AssemblyReference.cache
+C:\Users\natte\MyFirstStardewMod\obj\Release\net6.0\MyFirstStardewMod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natte\MyFirstStardewMod\obj\Release\net6.0\MyFirstStardewMod.AssemblyInfoInputs.cache
+C:\Users\natte\MyFirstStardewMod\obj\Release\net6.0\MyFirstStardewMod.AssemblyInfo.cs
+C:\Users\natte\MyFirstStardewMod\obj\Release\net6.0\MyFirstStardewMod.csproj.CoreCompileInputs.cache
+C:\Users\natte\MyFirstStardewMod\obj\Release\net6.0\MyFirstStardewMod.dll
