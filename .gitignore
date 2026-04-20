@@ -1,0 +1,34 @@
+﻿# ==================================
+# Stardew Valley Mod .gitignore
+# ==================================
+
+# Build folders (Compiled code)
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio / IDE specific files
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# Mac / File System junk
+.DS_Store
+Thumbs.db
+
+# Packaged Mod Releases 
+# (If you create zip files of your mod for Nexus Mods, this keeps them out of GitHub)
+*.zip
+*.rar
+*.7z
+
+# Miscellaneous cache and temp files
+*.cache
+*.tmp
+*.log
