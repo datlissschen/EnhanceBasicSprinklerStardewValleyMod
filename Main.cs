@@ -4,6 +4,7 @@ using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewValley;
 using StardewValley.TerrainFeatures;
+
 namespace MyFirstStardewMod
 {
     public class ModEntry : Mod
