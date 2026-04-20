@@ -6,3 +6,4 @@ C:\Users\natte\MyFirstStardewMod\obj\Release\net6.0\MyFirstStardewMod.AssemblyIn
 C:\Users\natte\MyFirstStardewMod\obj\Release\net6.0\MyFirstStardewMod.AssemblyInfo.cs
 C:\Users\natte\MyFirstStardewMod\obj\Release\net6.0\MyFirstStardewMod.csproj.CoreCompileInputs.cache
 C:\Users\natte\MyFirstStardewMod\obj\Release\net6.0\MyFirstStardewMod.dll
+C:\Users\natte\MyFirstStardewMod\obj\Release\net6.0\MyFirstStardewMod.sourcelink.json
