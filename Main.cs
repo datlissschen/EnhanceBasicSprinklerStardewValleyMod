@@ -42,13 +42,34 @@ namespace MyFirstStardewMod
             // Define the tile offsets to water (12x12). 
             List<Vector2> offsets = new List<Vector2>
             {
-                // The 4 corners (turning the basic + shape into a 3x3 square)
+                // 3x3 square
                 new Vector2(-1, -1), new Vector2(1, -1), 
                 new Vector2(-1, 1),  new Vector2(1, 1),
         
-                // 4 tiles reaching further out (Up, Down, Left, Right)
-                new Vector2(-2, -2), new Vector2(2, -2), 
-                new Vector2(-2, 2), new Vector2(2, 2)
+                // 5x5 square
+                // left down
+                new Vector2(0, -2), 
+                new Vector2(-1,-2),
+                new Vector2(-2,-2),
+                new Vector2(-2, -1),
+                
+                // right up
+                new Vector2(0, 2),
+                new Vector2(1,2),
+                new Vector2(2,2),
+                new Vector2(2, 1),
+                
+                // left up
+                new Vector2(-2, 0), 
+                new Vector2(-2,1),
+                new Vector2(-2, 2),
+                new Vector2(-1, 2),
+                
+                //right down
+                new Vector2(2, 0),
+                new Vector2(2,-1),
+                new Vector2(2,-2),
+                new Vector2(1,-2)
             };
 
             foreach (Vector2 offset in offsets)
