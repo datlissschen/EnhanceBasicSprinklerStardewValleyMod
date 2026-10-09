@@ -47,8 +47,8 @@ namespace MyFirstStardewMod
                 new Vector2(-1, 1),  new Vector2(1, 1),
         
                 // 4 tiles reaching further out (Up, Down, Left, Right)
-                new Vector2(0, -9), new Vector2(0, 9), 
-                new Vector2(-9, 0), new Vector2(9, 0)
+                new Vector2(-2, -2), new Vector2(2, -2), 
+                new Vector2(-2, 2), new Vector2(2, 2)
             };
 
             foreach (Vector2 offset in offsets)

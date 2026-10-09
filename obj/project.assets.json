@@ -44,11 +44,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\natte\\MyFirstStardewMod\\MyFirstStardewMod.csproj",
-      "projectName": "MyFirstStardewMod",
-      "projectPath": "C:\\Users\\natte\\MyFirstStardewMod\\MyFirstStardewMod.csproj",
+      "projectUniqueName": "C:\\Users\\natte\\RiderProjects\\EnhanceBasicSprinklerStardewValleyMod\\EnhanceBasicSprinkler.csproj",
+      "projectName": "EnhanceBasicSprinkler",
+      "projectPath": "C:\\Users\\natte\\RiderProjects\\EnhanceBasicSprinklerStardewValleyMod\\EnhanceBasicSprinkler.csproj",
       "packagesPath": "C:\\Users\\natte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\natte\\MyFirstStardewMod\\obj\\",
+      "outputPath": "C:\\Users\\natte\\RiderProjects\\EnhanceBasicSprinklerStardewValleyMod\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

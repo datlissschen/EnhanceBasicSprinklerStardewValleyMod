@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8UMgK8JET0M=",
+  "dgSpecHash": "zKnTXAB2/k4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\natte\\MyFirstStardewMod\\MyFirstStardewMod.csproj",
+  "projectFilePath": "C:\\Users\\natte\\RiderProjects\\EnhanceBasicSprinklerStardewValleyMod\\EnhanceBasicSprinkler.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\natte\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.4.0\\pathoschild.stardew.modbuildconfig.4.4.0.nupkg.sha512"
   ],

@@ -1,9 +1,9 @@
 ﻿{
-  "Name": "My First Stardew Mod",
+  "Name": "Enhancement of the Basic Sprinkler",
   "Author": "datlissschen",
-  "Version": "1.0.0",
-  "Description": "Meine erste Mod für Stardew Valley.",
-  "UniqueID": "datlissschen.MyFirstStardewMod",
-  "EntryDll": "MyFirstStardewMod.dll",
+  "Version": "1.0.1",
+  "Description": "Mod to enhance the range of the basic sprinkler.",
+  "UniqueID": "datlissschen.EnhanceBasicSprinkler",
+  "EntryDll": "EnhanceBasicSprinkler.dll",
   "MinimumApiVersion": "4.0.0"
 }
