@@ -4,7 +4,7 @@ A Stardew Valley mod that makes the early-game Basic Sprinkler actually worth cr
 If you want to play the game fair till you have achieved the sprinkler. So watering is still an experience that you made.
 
 ## 🌻 What it does
-In vanilla Stardew Valley, the Basic Sprinkler only waters the 4 immediately adjacent tiles (up, down, left, right). This mod automatically expands that range overnight, watering a **12-tile diamond shape** instead.
+In vanilla Stardew Valley, the Basic Sprinkler only waters the 4 immediately adjacent tiles (up, down, left, right). This mod automatically expands that range overnight, watering a **25-tile square shape** instead.
 
 It keeps the early game balanced but removes the awkward farm layouts required by the original 4-tile limit.
 
@@ -12,7 +12,7 @@ It keeps the early game balanced but removes the awkward farm layouts required b
  C# is the used programming language.
 
 ##  Features
-* Changes the Basic Sprinkler watering area from 4 tiles to 12 tiles.
+* Changes the Basic Sprinkler watering area from 4 tiles to 25 tiles.
 * Seamlessly integrates with the overnight game cycle (`DayStarted` event).
 * Lightweight and works completely out of the box—no configuration needed!
 
