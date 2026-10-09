@@ -1,7 +1,7 @@
 ﻿{
   "Name": "Enhancement of the Basic Sprinkler",
   "Author": "datlissschen",
-  "Version": "1.0.1",
+  "Version": "2.0.0",
   "Description": "Mod to enhance the range of the basic sprinkler.",
   "UniqueID": "datlissschen.EnhanceBasicSprinkler",
   "EntryDll": "EnhanceBasicSprinkler.dll",
