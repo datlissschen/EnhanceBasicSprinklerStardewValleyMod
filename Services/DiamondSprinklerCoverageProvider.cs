@@ -3,13 +3,40 @@ using Microsoft.Xna.Framework;
 
 namespace MyFirstStardewMod.Services
 {
-    public interface ISprinklerCoverageProvider
+    public class DiamondSprinklerCoverageProvider : ISprinklerCoverageProvider
     {
-        /// <summary>
-        /// Retrieves world tile coordinates that should be watered around the given sprinkler origin.
-        /// </summary>
-        /// <param name="origin">The world tile coordinate of the sprinkler.</param>
-        /// <returns>A collection of target world coordinates.</returns>
-        IEnumerable<Vector2> GetWateringTiles(Vector2 origin);
+        // Cached unique relative offsets to avoid per-sprinkler heap allocations
+        private static readonly IReadOnlyList<Vector2> RelativeOffsets = new List<Vector2>
+        {
+            // 3x3 diagonal corners
+            new Vector2(-1, -1),
+            new Vector2(1, -1),
+            new Vector2(-1, 1),
+            new Vector2(1, 1),
+
+            // 5x5 outer ring expansion (deduplicated)
+            new Vector2(0, -2),
+            new Vector2(-1, -2),
+            new Vector2(-2, -2),
+            new Vector2(-2, -1),
+            new Vector2(0, 2),
+            new Vector2(1, 2),
+            new Vector2(2, 2),
+            new Vector2(2, 1),
+            new Vector2(-2, 0),
+            new Vector2(-2, 1),
+            new Vector2(-1, 2),
+            new Vector2(2, 0),
+            new Vector2(2, -1),
+            new Vector2(1, -2)
+        };
+
+        public IEnumerable<Vector2> GetWateringTiles(Vector2 origin)
+        {
+            foreach (Vector2 offset in RelativeOffsets)
+            {
+                yield return origin + offset;
+            }
+        }
     }
 }
