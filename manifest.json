@@ -5,5 +5,6 @@
   "Description": "Mod to enhance the range of the basic sprinkler.",
   "UniqueID": "datlissschen.EnhanceBasicSprinkler",
   "EntryDll": "EnhanceBasicSprinkler.dll",
-  "MinimumApiVersion": "4.0.0"
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": "Github:datlissschen/EnhanceBasicSprinklerStardewValleyMod"
 }
